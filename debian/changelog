@@ -1,5 +1,53 @@
-template-repository (1.0-1) unstable; urgency=medium
+aiohappyeyeballs (2.4.4-2) unstable; urgency=medium
 
-  * Initial release
+  * Skip test which needs network access.
+  * Simplify debian/watch.
 
- -- Tsic404 <liuheng@deepin.org>  Sat, 28 Jan 2023 13:46:49 +0800
+ -- Edward Betts <edward@4angle.com>  Wed, 18 Dec 2024 09:01:25 +0000
+
+aiohappyeyeballs (2.4.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Edward Betts <edward@4angle.com>  Thu, 05 Dec 2024 10:32:17 +0000
+
+aiohappyeyeballs (2.4.3-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Refresh remove README badges patch.
+
+ -- Edward Betts <edward@4angle.com>  Fri, 04 Oct 2024 06:06:08 +0100
+
+aiohappyeyeballs (2.4.2-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Edward Betts <edward@4angle.com>  Mon, 30 Sep 2024 12:27:54 +0100
+
+aiohappyeyeballs (2.4.0-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Move packages required for tests to Build-Depends-Indep.
+
+ -- Edward Betts <edward@4angle.com>  Tue, 20 Aug 2024 22:27:07 +0100
+
+aiohappyeyeballs (2.3.5-1) unstable; urgency=medium
+
+  * New upstream release.
+  * Update Standards-Version.
+  * Add missing Build-Depends for python3-pytest-asyncio.
+  * Update autopkgtest to run asyncio tests.
+
+ -- Edward Betts <edward@4angle.com>  Mon, 12 Aug 2024 12:07:43 +0100
+
+aiohappyeyeballs (2.3.2-2) unstable; urgency=medium
+
+  * Source-only upload to allow package to migrate to testing.
+
+ -- Edward Betts <edward@4angle.com>  Sun, 26 May 2024 14:42:50 +0200
+
+aiohappyeyeballs (2.3.2-1) unstable; urgency=medium
+
+  * Initial release. (Closes: #1071486)
+
+ -- Edward Betts <edward@4angle.com>  Tue, 21 May 2024 13:59:20 +0200

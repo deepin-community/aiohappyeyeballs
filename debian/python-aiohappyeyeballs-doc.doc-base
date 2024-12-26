@@ -1,0 +1,8 @@
+Document: python-aiohappyeyeballs-doc
+Title: Happy Eyeballs connection helper for asyncio Documentation
+Author: J. Nick Koston <nick@koston.org>
+Section: Programming/Python
+
+Format: HTML
+Index: /usr/share/doc/python3-aiohappyeyeballs/html/index.html
+Files: /usr/share/doc/python3-aiohappyeyeballs/html/*.html
